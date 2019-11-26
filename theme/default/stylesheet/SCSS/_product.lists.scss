@@ -1,0 +1,29 @@
+.product-thumb {
+    a {
+        display: block;
+    }
+
+    .image {
+        max-height: none;
+    }
+
+    img {
+        width:100%
+    }
+
+    h4 {
+        font-size: 100%;
+        font-weight: normal;
+    }
+
+    .price {
+        font-weight: bold;
+    }
+
+    .rating {
+        font-size: 50%;
+        margin: 2em 0;
+        color: var(--color-accent-light);
+    }
+}
+
