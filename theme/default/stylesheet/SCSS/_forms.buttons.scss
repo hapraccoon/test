@@ -1,0 +1,21 @@
+.btn {
+    border: none;
+    background-color: #fbd9eb;
+    padding: .8em 1em;
+    color: var(--color-accent);
+    font-size: .875em;
+    position: relative;
+    
+    &:hover {
+        cursor: pointer;
+    }
+
+    span {
+        margin-left: .5em;
+    }
+
+    &:focus, &:active {
+        outline: 0;
+        border:none
+    }
+}

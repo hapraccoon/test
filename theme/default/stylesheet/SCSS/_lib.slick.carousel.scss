@@ -1,0 +1,33 @@
+.slick-arrow {
+    position: absolute;
+    top: 50%;    
+    z-index: 100;
+
+    &.right {
+        right: 0;
+        transform: translateY(-50%) translateX(50%);
+    }
+
+    &.left {
+        left: 0;
+        transform: translateY(-50%) translateX(-50%);
+    }
+}
+
+ /* the slides */
+ .slick-slide {
+    margin-left:2em;
+  }
+
+  /* the parent */
+  .slick-list {
+    margin-left:-2em;
+  }
+
+  .slick-slide img {
+      width: 100%;
+  }
+
+  .slick-slide {
+      text-align: center;
+  }

@@ -1,0 +1,22 @@
+.thumbnails {
+    width:100%;
+}
+.thumb-block {
+    position:relative;
+    margin:0 0 5px;
+}
+.thumbnails .prev, .thumbnails .next {
+    position:absolute;
+    width:40px;
+    height:40px;
+}
+.thumbnails .prev {
+    bottom:20px;
+    left:20px;
+    background:url(../images/controls.png) no-repeat 0 0;
+}
+.thumbnails .next {
+    bottom:20px;
+    right:20px;
+    background:url(../images/controls.png) no-repeat -48px 0;
+}
