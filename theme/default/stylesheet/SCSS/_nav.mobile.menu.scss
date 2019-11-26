@@ -261,4 +261,9 @@
             }
         }
     }
+
+    .my_div {
+        transform: translateX(-100%);
+        transition: .3s all;
+    }
 }

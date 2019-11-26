@@ -110,25 +110,27 @@
                     </ul>
                 <?php } ?>
                 </div>
-                <div class="about_mobile"><a href="/index.php?route=information/about">О Компании</a></div>
-                <div class="discount_mobile"><a href="<?php echo $discount; ?>">Акции</a></div>
-                <div class="delivery_mobile"><a href="/index.php?route=information/delivery">Доставка и оплата</a></div>
-                <div class="magazines_mobile"><a href="<?php echo $contact; ?>">Магазины</a></div>
-                <div class="block contacts">
-                    <div class="title">Контакты</div>
-                        <ul>
-                            <li class="phone"><?php echo $telephone; ?></li>
-                            <li class="mail"><?php echo $email; ?></li>
-                            <li class="mark"><?php echo $address; ?></li>
-                            <li class="soc">
-                            <a href="https://vk.com/goodlac"><img src="/image/system/icon_social_vk.svg" alt="vk"></a>
-                            <a href="https://www.instagram.com/goodlac.pro"><img src="/image/system/icon_social_insta.svg" alt="instagram"></a>
-                            </li>
-                        </ul>   
-                        <div class="call_us">
-                            <a href="tel:<?php echo $telephone; ?>"><img src="/image/system/icon_phone.svg" alt="phone"></a>
-                        </div>
-                    </div>
+                <div class="my_div">
+                  <div class="about_mobile"><a href="/index.php?route=information/about">О Компании</a></div>
+                  <div class="discount_mobile"><a href="<?php echo $discount; ?>">Акции</a></div>
+                  <div class="delivery_mobile"><a href="/index.php?route=information/delivery">Доставка и оплата</a></div>
+                  <div class="magazines_mobile"><a href="<?php echo $contact; ?>">Магазины</a></div>
+                  <div class="block contacts">
+                      <div class="title">Контакты</div>
+                          <ul>
+                              <li class="phone"><?php echo $telephone; ?></li>
+                              <li class="mail"><?php echo $email; ?></li>
+                              <li class="mark"><?php echo $address; ?></li>
+                              <li class="soc">
+                              <a href="https://vk.com/goodlac"><img src="/image/system/icon_social_vk.svg" alt="vk"></a>
+                              <a href="https://www.instagram.com/goodlac.pro"><img src="/image/system/icon_social_insta.svg" alt="instagram"></a>
+                              </li>
+                          </ul>   
+                          <div class="call_us">
+                              <a href="tel:<?php echo $telephone; ?>"><img src="/image/system/icon_phone.svg" alt="phone"></a>
+                          </div>
+                      </div>
+                </div>
             </div>
 
             <div class="navigation">
