@@ -3252,10 +3252,6 @@ input:-moz-placeholder {
     margin-bottom: 30px;
 }
 
-.product-list .product-thumb .image {
-    max-height: 220px;
-}
-
 .accaunt-block {
     width: -webkit-calc(75% - 15px);
     width: calc(75% - 15px);
